@@ -1,11 +1,27 @@
 body{
     margin: 0;
     text-align: center;
+    font-family: "Merriweather", serif;
+     
 }
-h1{
-    width: 10%;
-    margin: 0 auto 0 auto;
+h1 .name{
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+  
 }
+h2{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem; 
+    font-weight: normal;
+}
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .top-container{
     background-color: #E4F9F5;
     position: relative;
@@ -14,16 +30,19 @@ h1{
    
 }
 .middle-container{
-    width: 200px;
-    height: 200px;
-    background-color: red;
+   
    
 }
 .bottom-container{
-    width: 200px;
-    height: 200px;
-    background-color: blue;
+
    
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    
 }
 .pro{
     text-decoration: underline;
@@ -38,6 +57,29 @@ h1{
     left: 450px;
     bottom: 300px;
 }
+.profile-picture {
+    margin-top: 30px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.picture-1{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.picture-2{
+    width: 25%;
+    float:right;
+    margin-right: 30px;
+}
+
+a{
+    color: #11999E;
+}
+
 
 /*.container{
     position: relative;
